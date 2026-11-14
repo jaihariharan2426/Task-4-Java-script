@@ -167,8 +167,8 @@ if (time >= 1 && time <= 6) {
 }
 
 // 26 Create a nested if condition to check age, height, and weight for selection.
-let selAge = 23, height = 170, weight = 80;
-if (selAge >= 18) {
+let studentAge = 23, height = 170, weight = 80;
+if (studentAge >= 18) {
   if (height >= 165) {
     if (weight >= 55) {
       console.log("Selected");
@@ -186,13 +186,13 @@ if (selAge >= 18) {
 let trafficLight = "green";
 switch (trafficLight) {
   case "red":
-    console.log("Stop");
+    console.log("Vehicle Stop");
     break;
   case "yellow":
-    console.log("Get ready");
+    console.log("Vehicle Get ready");
     break;
   case "green":
-    console.log("Go");
+    console.log("Vehicle Go");
     break;
   default:
     console.log("Invalid signal");
