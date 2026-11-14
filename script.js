@@ -143,7 +143,8 @@ if (mark >= 35) {
   console.log("Fail");
 }
 
-// 25 Create a time-based greeting system using else-if: 1–6: Early Morning
+// 25 Create a time-based greeting system using else-if: 
+// 1–6: Early Morning
 // 7–12: Good Morning
 // 13–15: Good Afternoon
 // 16–18: Good Evening
